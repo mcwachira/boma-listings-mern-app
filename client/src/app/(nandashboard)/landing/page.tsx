@@ -1,5 +1,9 @@
+import HeroSection from "@/app/(nandashboard)/landing/HeroSection";
+
 const Landing = () => {
-  return <div>landing</div>;
+  return <div>
+    <HeroSection />
+  </div>;
 };
 
 export default Landing;
