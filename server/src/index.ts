@@ -19,12 +19,11 @@ app.use(cors());
 
 // ROUTES
 app.get("/", (req, res) => {
-  res.send("This is the hme route");
+  res.send("This is the home route");
 });
 
 //server
-
-const PORT = process.env.PORT || 3002;
-app.listen(PORT, () => {
-  console.log(`server running on port ${PORT}`);
+const port = process.env.PORT || 3002;
+app.listen(port, () => {
+  console.log(`server running on port ${port}`);
 });
